@@ -17,3 +17,10 @@ print(largepizza)
 totaal = smallpizza + mediumpizza + largepizza
 print("U betaald voor uw bestelling")
 print(totaal)
+
+print("""------------------""")
+print(f'{aantalSmall} Small voor {priceSmall} per pizza ' + str(aantalSmall*priceSmall))
+print(f'{aantalMedium} Medium voor {priceMedium} per pizza ' + str(aantalMedium*priceMedium))
+print(f'{aantalLarge} Large voor {priceLarge} per pizza ' + str(aantalLarge*priceLarge))
+print(f'U betaald totaal' + str(totaal))
+print("""------------------""")
